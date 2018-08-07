@@ -21,7 +21,7 @@ Like JSON
 
 ### test.json
 
-```json
+```
 {
   /* comment */
   "test": "Like JSON" <!-- comment --> /* comment */
