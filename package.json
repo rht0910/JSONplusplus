@@ -1,0 +1,22 @@
+{
+  "name": "jsonplusplus",
+  "version": "0.0.1",
+  "description": "JSON++",
+  "main": "./src/index",
+  "scripts": {
+    "test": "node --no-warnings test/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rht0910/JSONplusplus.git"
+  },
+  "keywords": [
+    "json++"
+  ],
+  "author": "rht0910_a",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/rht0910/JSONplusplus/issues"
+  },
+  "homepage": "https://github.com/rht0910/JSONplusplus#readme"
+}
