@@ -7,5 +7,4 @@ require("./parse-test");
 console.log("------------------");
 (async function() {
   await require("./async-require-test");
-  await require("./async-parse-test");
 })();

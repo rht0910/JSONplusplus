@@ -20,9 +20,6 @@ module.exports = {
     }
     return JSON.parse(file.replaceWithEmpty(/(\/\/.*$|\/\*.*((|\n.*?)*)\*\/)/gm));
   },
-  async parseAsync(json) {
-    return JSON.parse(json.replaceWithEmpty(/(\/\/.*$|\/\*.*((|\n.*?)*)\*\/)/gm));
-  },
   parse(json) {
     return JSON.parse(json.replaceWithEmpty(/(\/\/.*$|\/\*.*((|\n.*?)*)\*\/)/gm));
   }
