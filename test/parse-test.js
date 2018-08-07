@@ -8,6 +8,7 @@ const json = `{
   "test2": "JSONTest2", // test
   // This is ...
   "test3": "JSONTest3"
+  /* <!-- comment */ -->
 }`;
 const testjson = jsonp.parse(json);
 
