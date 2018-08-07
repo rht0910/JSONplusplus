@@ -5,7 +5,7 @@ module.exports = {
   async requireAsync(path) {
     let file = null;
     try {
-      file = await fsp.readFile(path, 'utf8');
+      file = await fsp.readFile(require("path").dirname(process.argv[1]) + "/" + path, 'utf8');
     } catch (e) {
       throw new Error(`Cannot find file ${path}\n${e.stack}`);
     }
