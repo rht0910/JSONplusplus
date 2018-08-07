@@ -14,11 +14,6 @@ const json = json.require('./test.json');
 console.log(json.test);
 ```
 
-#### Output
-```
-Like JSON
-```
-
 ### test.json
 
 ```
@@ -27,6 +22,11 @@ Like JSON
   "test": "Like JSON" <!-- comment --> /* comment */
   // comment
 }
+```
+
+#### Output
+```
+Like JSON
 ```
 
 # Methods
