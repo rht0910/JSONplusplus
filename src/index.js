@@ -9,7 +9,7 @@ module.exports = {
     } catch (e) {
       throw new Error(`Cannot find file ${path}\n${e.stack}`);
     }
-    return JSON.parse(file.replaceWithEmpty(/(\/\/.*$|\/\*.*?((|\n.*?)*)\*\/|<!--.*((|\n.*?)*)-->)/gm));
+    return JSON.parse(file.replaceWithEmpty(/(?!.*?")(\/\/.*$|\/\*.*?((|\n.*?)*)\*\/|<!--.*((|\n.*?)*)-->)/gm));
   },
   require(path) {
     let file = null;
@@ -18,10 +18,10 @@ module.exports = {
     } catch (e) {
       throw new Error(`Cannot find file ${path}\n${e.stack}`);
     }
-    return JSON.parse(file.replaceWithEmpty(/(\/\/.*$|\/\*.*?((|\n.*?)*)\*\/|<!--.*((|\n.*?)*)-->)/gm));
+    return JSON.parse(file.replaceWithEmpty(/(?!.*?")(\/\/.*$|\/\*.*?((|\n.*?)*)\*\/|<!--.*((|\n.*?)*)-->)/gm));
   },
   parse(json) {
-    return JSON.parse(json.replaceWithEmpty(/(\/\/.*$|\/\*.*?((|\n.*?)*)\*\/|<!--.*((|\n.*?)*)-->)/gm));
+    return JSON.parse(json.replaceWithEmpty(/(?!.*?")(\/\/.*$|\/\*.*?((|\n.*?)*)\*\/|<!--.*((|\n.*?)*)-->)/gm));
   }
 }
 
