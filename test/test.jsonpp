@@ -1,8 +1,5 @@
 {
   // test
-  /*
-    test
-  */
   "test": "https://google.com", /* test */
   "test2": "JSONTest2", // test
   // This is ...

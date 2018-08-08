@@ -1,5 +1,5 @@
 const jsonp = require("../src/index");
-const testjson = jsonp.require("./test.json");
+const testjson = jsonp.require("./test.jsonpp");
 
 console.log("Test1: " + testjson.test);
 console.log("Test2: " + testjson.test2);

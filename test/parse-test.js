@@ -4,7 +4,7 @@ const json = `{
   /*
     test
   */
-  "test": "JSONTest", /* test */
+  "test": "https://google.com", /* test */
   "test2": "JSONTest2", // test
   // This is ...
   "test3": "JSONTest3"
