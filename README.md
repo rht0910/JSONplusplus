@@ -1,4 +1,10 @@
-# JSON++
+# JSON++ 
+
+[![NPM](https://nodei.co/npm/jsonplusplus.png)](https://nodei.co/npm/jsonplusplus/)
+
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+
+[![Build Status](https://travis-ci.com/rht0910/JSONplusplus.svg?branch=master)](https://travis-ci.com/rht0910/JSONplusplus)
 
 JSON++ is useful version of [JSON](https://json.org).
 

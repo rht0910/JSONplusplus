@@ -1,3 +1,4 @@
+
 const jsonp = require("../src/index");
 const json = `{
   // test
@@ -11,7 +12,7 @@ const json = `{
   /* <!-- comment --> */
 }`;
 const testjson = jsonp.parse(json);
-
+console.log("---- parse-test ----")
 console.log("Test1: " + testjson.test);
 console.log("Test2: " + testjson.test2);
 console.log("Test3: " + testjson.test3);
